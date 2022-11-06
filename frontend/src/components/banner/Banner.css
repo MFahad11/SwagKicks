@@ -1,0 +1,23 @@
+.showcase{
+    margin: 0.1px;
+    position: relative;
+    height: 88.8vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:768px) {
+    .showcase{
+        height: 60vh;
+    }
+}
+@media (max-width:554px) {
+    .showcase{
+        height: 45vh;
+    }
+}
+@media (max-width:320px) {
+    .showcase{
+        height: 40vh;
+    }
+}
